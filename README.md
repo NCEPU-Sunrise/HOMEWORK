@@ -36,3 +36,9 @@ X_train, X_test, y_train, y_test = train_test_split(data, label)
 # 建立映射方便表示。由于我们只取3类,映射为0,1,2就行
 class_map = {'2' : 0, '3': 1, '4': 2}
 ```
+
+## Lecture 2
+
+### 2022.9.11
+
+使用Lecture1中的代码产生数据集或者自己构建分类数据集（必须是图片），使用numpy写两个一层神经网络分别实现二分类和多分类，即一个是Logistic Regression，一个是Softmax Regression。前者是后者的特例。使用梯度下降算法更新参数。在2022.9.17 00:00:00之前提交完成。
